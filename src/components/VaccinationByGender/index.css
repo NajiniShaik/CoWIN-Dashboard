@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.vaccination-by-gender-container {
+  background-color: #1c1c2b;
+  border-radius: 5px;
+  margin: 30px 0px;
+  padding: 30px;
+}
+
+.vaccination-by-gender-chart-title {
+  color: #6c757d;
+  font-size: 18px;
+  font-family: 'Roboto';
+}
+
+@media (min-width: 768px) {
+  .vaccination-by-gender-chart-title {
+    font-size: 22px;
+  }
+}
